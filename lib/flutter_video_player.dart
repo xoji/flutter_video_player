@@ -43,7 +43,6 @@ class _FlutterVideoPlayerState extends State<FlutterVideoPlayer> {
           ? GestureDetector(
               behavior: HitTestBehavior.translucent,
               onTap: () {
-                print("tapped");
                 if (_controller.value.isPlaying) {
                   _controller.pause();
                 } else {
